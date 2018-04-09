@@ -34,6 +34,7 @@ namespace JustAnotherMusicPlayer
             public string Length { get; set; }
         }
 
+        public static IPAddress localAddr;
         public static TcpClient tcpclnt = new TcpClient();
         public MusicPlayer player = new MusicPlayer();
         Playlist playlist = new Playlist();
@@ -497,7 +498,7 @@ namespace JustAnotherMusicPlayer
 
         public static void TcpClient(string ipaddress, Int32 portNum)
         {
-            IPAddress localAddr = IPAddress.Parse(ipaddress);
+            localAddr = IPAddress.Parse(ipaddress);
             try
             {
                 
@@ -531,6 +532,15 @@ namespace JustAnotherMusicPlayer
             {
                 Console.WriteLine("Error..... " + e.StackTrace);
             }
+        }
+
+        public static void searchP2P(string name)
+        {
+            // String str=Console.ReadLine();
+            Stream stm = tcpclnt.GetStream();
+            ASCIIEncoding asen = new ASCIIEncoding();
+            byte[] ba = asen.GetBytes(name);
+            stm.Write(ba, 0, ba.Length);
         }
     }
 }
