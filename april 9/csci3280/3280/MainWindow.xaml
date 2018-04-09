@@ -219,7 +219,7 @@
                 <Label Name="label3" Visibility="Hidden" Content="Port:" HorizontalAlignment="Left" Height="29" Margin="110,92,0,0" VerticalAlignment="Top" Width="137" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931"/>
                 <TextBox Name="box" Visibility="Hidden" HorizontalAlignment="Left" Height="29" Margin="152,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Grid.ColumnSpan="2"/>
                 <TextBox Name="box2" Visibility="Hidden" HorizontalAlignment="Left" Height="29" Margin="152,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Grid.ColumnSpan="2"/>
-                <Button Name="b1" Visibility="Hidden" Content="Search" HorizontalAlignment="Left" Height="31" Margin="220,86,0,0" VerticalAlignment="Top" Width="68" Click="Button_Click" Grid.ColumnSpan="2"/>
+                <Button Name="b1" Visibility="Hidden" Content="Search" HorizontalAlignment="Left" Height="31" Margin="220,86,0,0" VerticalAlignment="Top" Width="68" Click="SearchSong_Click" Grid.ColumnSpan="2"/>
                 <Button Name="b2" Visibility="Hidden" Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="31,86,0,0" VerticalAlignment="Top" Width="69" Click="Cancel_Click" Grid.Column="1"/>
                 <Button Name="b3" Visibility="Hidden" Content="Connect" HorizontalAlignment="Left" Height="31" Margin="220,126,0,0" VerticalAlignment="Top" Width="68" Click="connectIp" Grid.ColumnSpan="2"/>
                 <Button Name="b4" Visibility="Hidden" Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="31,126,0,0" VerticalAlignment="Top" Width="69" Click="Cancel_Click" Grid.Column="1"/>
