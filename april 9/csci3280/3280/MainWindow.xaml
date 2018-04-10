@@ -223,12 +223,12 @@
                 <Button Name="b2" Visibility="Hidden" Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="31,86,0,0" VerticalAlignment="Top" Width="69" Click="Cancel_Click" Grid.Column="1"/>
                 <Button Name="b3" Visibility="Hidden" Content="Connect" HorizontalAlignment="Left" Height="31" Margin="220,126,0,0" VerticalAlignment="Top" Width="68" Click="connectIp" Grid.ColumnSpan="2"/>
                 <Button Name="b4" Visibility="Hidden" Content="Cancel" HorizontalAlignment="Left" Height="31" Margin="31,126,0,0" VerticalAlignment="Top" Width="69" Click="Cancel_Click" Grid.Column="1"/>
-                <Label x:Name="label_Copy" Visibility="Hidden" Content="Title :" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="98" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931" Margin="10,71,0,0"/>
+                <Label x:Name="label_Copy" Visibility="Hidden" Content="Title :" HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="98" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931" Margin="10,73,0,0"/>
                 <TextBox x:Name="box_Copy" Visibility="Hidden" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Text="//input new title here" FontFamily="Microsoft Yi Baiti" FontStyle="Italic" Margin="10,93,0,0"/>
                 <Label x:Name="label_Copy1" Visibility="Hidden" Content="Artist :" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="137" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931" Margin="10,127,0,0"/>
                 <TextBox x:Name="box_Copy1" Visibility="Hidden" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Text="//input new Artist here" FontFamily="Microsoft Yi Baiti" FontStyle="Italic" Margin="10,150,0,0"/>
-                <Label x:Name="label_Copy2" Visibility="Hidden" Margin="10,184,0,0" Content="Album :" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="137" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931"/>
-                <TextBox x:Name="box_Copy2" Visibility="Hidden" Margin="10,206,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Text="//input new Album here" FontFamily="Microsoft Yi Baiti" FontStyle="Italic"/>
+                <Label x:Name="label_Copy2" Visibility="Hidden" Margin="10,184,0,0" Content="Album :" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="137" FontFamily="Narkisim" FontSize="16" RenderTransformOrigin="0.496,0.931"/>
+                <TextBox x:Name="box_Copy2" Visibility="Hidden" Margin="10,209,0,0" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" Text="//input new Album here" FontFamily="Microsoft Yi Baiti" FontStyle="Italic"/>
                 <Button x:Name="b1_Copy" Visibility="Hidden" Margin="321,206,0,0" Content="Submit" HorizontalAlignment="Left" Height="32" VerticalAlignment="Top" Width="68" Click="b1_Copy_Click" Grid.ColumnSpan="2"/>
 
                 <ListView
@@ -284,7 +284,7 @@
 
                 </ListBox>
 
-                <ListBox x:Name="Songs" Visibility="Hidden" HorizontalAlignment="Left" Height="308" Margin="0,163,-2,0" VerticalAlignment="Top" Width="502" Grid.ColumnSpan="2">
+                <ListBox x:Name="Songs" Visibility="Hidden" HorizontalAlignment="Left" Height="308" Margin="0,163,-2,0" VerticalAlignment="Top" Width="502" Grid.ColumnSpan="2" MouseDoubleClick="Songs_MouseDoubleClick">
                     <ListBox.Background>
                         <ImageBrush ImageSource="images/410.jpg"/>
                     </ListBox.Background>

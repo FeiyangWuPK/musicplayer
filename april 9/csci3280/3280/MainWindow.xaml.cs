@@ -34,8 +34,8 @@ namespace JustAnotherMusicPlayer
             public string Length { get; set; }
         }
         bool ClientResult;
-        public  IPAddress localAddr;
-        public  TcpClient tcpclnt = new TcpClient();
+        public IPAddress localAddr;
+        public TcpClient tcpclnt = new TcpClient();
         public MusicPlayer player = new MusicPlayer();
         Playlist playlist = new Playlist();
         private DispatcherTimer timer = new DispatcherTimer();
@@ -80,12 +80,19 @@ namespace JustAnotherMusicPlayer
             //LoadLyrics();
         }
         void ReadSongs()
+
         {
-            Song song1 = new Song("songs/Imagine Dragons - Demons [mqms2].mp3");
+
+            Song song1 = new Song("songs/Demons.mp3");
+
             this.playlist.AddSong(song1);
-            Song song2 = new Song("songs/Imagine Dragons - Radioactive [mqms2].mp3");
+
+            Song song2 = new Song("songs/Radioactive.mp3");
+
             this.playlist.AddSong(song2);
+
             lstSongs.Items.Refresh();
+
 
         }
 
@@ -202,6 +209,13 @@ namespace JustAnotherMusicPlayer
         private void Search_Click(object sender, RoutedEventArgs e)
         {
             Songs.Items.Clear();
+            label2.Visibility = Visibility.Hidden;
+            label3.Visibility = Visibility.Hidden;
+            //box.Visibility = Visibility.Visible;
+            box2.Visibility = Visibility.Hidden;
+            b3.Visibility = Visibility.Hidden;
+            //b3.Content = "connect";
+            b4.Visibility = Visibility.Hidden;
             label.Visibility = Visibility.Visible;
             box.Visibility = Visibility.Visible;
             b1.Visibility = Visibility.Visible;
@@ -212,6 +226,10 @@ namespace JustAnotherMusicPlayer
         private void Connect_Click(object sender, RoutedEventArgs e)
         {
             //Songs.Items.Clear();
+
+            label.Visibility = Visibility.Hidden;
+            b2.Visibility = Visibility.Hidden;
+            b1.Visibility = Visibility.Hidden;
             label2.Visibility = Visibility.Visible;
             label3.Visibility = Visibility.Visible;
             box.Visibility = Visibility.Visible;
@@ -222,7 +240,6 @@ namespace JustAnotherMusicPlayer
             lyc.Visibility = Visibility.Hidden;
 
         }
-
         List<string> prints = new List<string>();
         public void ReadData()
         {
@@ -263,18 +280,18 @@ namespace JustAnotherMusicPlayer
             }
         }
         List<string> record = new List<string>();
-      
+
         private void SearchSong_Click(object sender, RoutedEventArgs e)
         {
             string name = box.Text;
-            
+
             searchP2P(name);
             record.Clear();
             Songs.Items.Clear();
             Musicbar.Visibility = Visibility.Visible;
             Songs.Visibility = Visibility.Visible;
             int index = 0;
-            
+
             for (int i = 0; i < processes.Count; i++)
             {
                 if (processes[i].Title == box.Text || processes[i].Artist == box.Text || processes[i].Album == box.Text)
@@ -286,29 +303,30 @@ namespace JustAnotherMusicPlayer
                     Songs.Items.Insert(index, itm);
                     index++;
                 }
-                else if(ClientResult)
-                {
-                       // MessageBox.Show("aaaaaaaaaa");
-                        ListBoxItem itm = new ListBoxItem();
-                        itm.Content = box.Text.PadRight(23) + "This is a Remote Song ";
-                        Songs.Items.Insert(index, itm);
-
-                }
 
 
-                }
-            
+
+            }
+            if (ClientResult)
+            {
+                // MessageBox.Show("aaaaaaaaaa");
+                ListBoxItem itm = new ListBoxItem();
+                itm.Content = box.Text.PadRight(23) + "This is a Remote Song";
+                record.Add(box.Text + " This is a Remote Song");
+                Songs.Items.Insert(index, itm);
+                index++;
+            }
 
 
             //MessageBox.Show(processes[1].Title);
         }
-        
+
         private void connectIp(object sender, RoutedEventArgs e)
         {
             string test = box.Text;
             Int32 portNum = Int32.Parse(box2.Text);
             TcpClient(test, portNum);
-            
+
             label.Visibility = Visibility.Visible;
             box.Visibility = Visibility.Visible;
             b1.Visibility = Visibility.Visible;
@@ -413,7 +431,8 @@ namespace JustAnotherMusicPlayer
             box_Copy2.Visibility = Visibility.Hidden;
             b1_Copy.Visibility = Visibility.Hidden;
             List<string> lines = new List<string>();
-            foreach (ProcessInfo a in processes) {
+            foreach (ProcessInfo a in processes)
+            {
 
                 if (a.Title == selectedsong && box_Copy.Text != tips)
                     a.Title = box_Copy.Text;
@@ -425,9 +444,6 @@ namespace JustAnotherMusicPlayer
 
             }
             File.WriteAllLines("database/database.txt", lines.ToArray());
-
-
-
         }
 
         private void lstSongs_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -438,7 +454,7 @@ namespace JustAnotherMusicPlayer
         public void TCPlisten(Int32 portnum)
         {
             TcpListener server = null;
-            bool exist = true;
+            bool exist = false;
             try
             {
 
@@ -457,62 +473,89 @@ namespace JustAnotherMusicPlayer
                 String data = null;
 
                 // Enter the listening loop.
-                
-                    Console.Write("Waiting for a connection... ");
 
-                    // Perform a blocking call to accept requests.
-                    // You could also user server.AcceptSocket() here.
-                    TcpClient client = server.AcceptTcpClient();
-                    Console.WriteLine("Connected!");
-                    MessageBox.Show("Connection Successful! Now you can search from this server");
-                    data = null;
+                Console.Write("Waiting for a connection... ");
 
-                    // Get a stream object for reading and writing
-                    NetworkStream stream = client.GetStream();
+                // Perform a blocking call to accept requests.
+                // You could also user server.AcceptSocket() here.
+                TcpClient client = server.AcceptTcpClient();
+                Console.WriteLine("Connected!");
+                MessageBox.Show("Connection Successful! Now you can search from this server");
+                data = null;
+
+                // Get a stream object for reading and writing
+                NetworkStream stream = client.GetStream();
+                //bool exist = false;
                 while (true)
                 {
-                    int i=0;
+                    int i = 0;
+
                     while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                     {
                         // Translate data bytes to a ASCII string.
                         data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
+
+
                         Console.Write("Server side:: ");
                         Console.WriteLine(data);
-                        if (exist == true )
+                        if (data.StartsWith("query"))
                         {
-                            Console.WriteLine("Server:: Found msg sent!");
-                            byte[] msg = System.Text.Encoding.ASCII.GetBytes("found");
-                            // Send back a response.
-                            //Console.WriteLine("Server:: Found msg sent!");
-                            Console.WriteLine(msg);
-                            stream.Write(msg, 0, msg.Length);
-
-                            if (data == "sendfile")
+                            data = data.Substring(5);
+                            for (int j = 0; j < processes.Count; j++)
                             {
-                                // Send the file
-                                //byte[] file = FileToByteArray(data);
-                                //stream.Write(file, 0, file.Length);
+                                if (processes[j].Title == data)
+                                {
+                                    exist = true;
+                                    break;
+                                }
+                            }
+
+                            if (exist == true)
+                            {
+                                Console.WriteLine("Server:: Found msg sent!");
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes("found");
+                                // Send back a response.
+                                //Console.WriteLine("Server:: Found msg sent!");
+                                Console.WriteLine(msg);
+                                stream.Write(msg, 0, msg.Length);
+
+
+
+                            }
+                            else
+                            {
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes("notfound");
+                                // Send back a response.
+                                Console.WriteLine("Server:: NotFound msg sent!");
+
+                                stream.Write(msg, 0, msg.Length);
                             }
 
                         }
-                        else
+                        else if (data.StartsWith("download"))
                         {
-                            byte[] msg = System.Text.Encoding.ASCII.GetBytes("notfound");
-                            // Send back a response.
-                            Console.WriteLine("Server:: Found msg sent!");
-
-                            stream.Write(msg, 0, msg.Length);
+                            //to do: download
+                            data = data.Substring(8);
+                            
+                            
+                            data = "songs/Demons.mp3";
+                            MessageBox.Show(data);
+                            
+                            byte[] file = FileToByteArray(data);
+                            MessageBox.Show(file.Length.ToString());
+                            stream.Write(file, 0, file.Length);
                         }
+
                     }
 
 
                     //TODO: check the existence of songs.
                     //bool exist = foundFile(data);
-                    
+
 
 
                     // Send result to client
-                    
+
                 }
             }
             catch (SocketException e)
@@ -535,7 +578,7 @@ namespace JustAnotherMusicPlayer
             localAddr = IPAddress.Parse(ipaddress);
             try
             {
-                
+
                 Console.WriteLine("Connecting.....");
 
                 tcpclnt.Connect(localAddr, 13000);
@@ -551,8 +594,8 @@ namespace JustAnotherMusicPlayer
                 byte[] ba = asen.GetBytes("hello from client");
                 Console.WriteLine("Transmitting.....");
 
-                stm.Write(ba, 0, ba.Length);
-                
+                //stm.Write(ba, 0, ba.Length);
+
             }
 
             catch (Exception e)
@@ -560,37 +603,41 @@ namespace JustAnotherMusicPlayer
                 Console.WriteLine("Error..... " + e.StackTrace);
             }
         }
-       
+
 
         public void searchP2P(string name)
         {
-            
-            Stream stm = tcpclnt.GetStream();
-            ASCIIEncoding asen = new ASCIIEncoding();
-            byte[] ba = asen.GetBytes(name);
-
-            stm.Write(ba, 0, ba.Length);
-            byte[] bb = new byte[100];
-            int k;
-            string converted = null;
-            while ((k = stm.Read(bb, 0, 100)) != 0)
+            try
             {
-
-                Console.WriteLine("deadlock?");
-                converted = System.Text.Encoding.ASCII.GetString(bb, 0, k);
-                Console.Write(converted);
-                if (converted == "found")
+                Stream stm = tcpclnt.GetStream();
+                ASCIIEncoding asen = new ASCIIEncoding();
+                byte[] ba = asen.GetBytes("query" + name);
+                stm.Write(ba, 0, ba.Length);
+                byte[] bb = new byte[100];
+                int k;
+                string converted = null;
+                while ((k = stm.Read(bb, 0, 100)) != 0)
                 {
 
-                    ClientResult = true;
+                    converted = System.Text.Encoding.ASCII.GetString(bb, 0, k);
+                    Console.Write(converted);
+                    if (converted == "found")
+                    {
+
+                        ClientResult = true;
+                    }
+                    else if (converted == "notfound")
+                    {
+                        ClientResult = false;
+                    }
+                    break;
                 }
-                else if (converted == "notfound")
-                {
-                    ClientResult = false;
-                }
-                break;
+
             }
-            
+            catch (Exception e)
+            {
+                Console.WriteLine("Not connected to any server!" + e.StackTrace);
+            }
 
         }
 
@@ -599,32 +646,97 @@ namespace JustAnotherMusicPlayer
             return File.ReadAllBytes(fileName);
         }
 
+        /*
+         usage: download certain file from server
+         invoke: file = downloadP2P(filename);
+         */
         public void downloadP2P(string name)
         {
-            Stream stm = tcpclnt.GetStream();
-            ASCIIEncoding asen = new ASCIIEncoding();
-            byte[] ba = asen.GetBytes(name);
-
-            stm.Write(ba, 0, ba.Length);
-            byte[] bb = new byte[100];
-            int k;
-            string converted = null;
-            while ((k = stm.Read(bb, 0, 100)) != 0)
+            try
             {
+                
 
-                converted = System.Text.Encoding.ASCII.GetString(bb, 0, k);
-                Console.Write(converted);
-                if (converted == "found")
+                //get connection stream
+                Stream stm = tcpclnt.GetStream();
+                ASCIIEncoding asen = new ASCIIEncoding();
+                byte[] ba = asen.GetBytes("download" + name);
+                stm.Write(ba, 0, ba.Length);
+                byte[] bb = new byte[512]; //read 512 bytes of data at a time
+                int k;
+                //create a file to write to
+                name = "songs/downloadtest.mp3";
+                BinaryWriter writer = new BinaryWriter(File.Open(name, FileMode.Append));
+                while ((k = stm.Read(bb, 0, 512)) != 0)
                 {
+                    Console.Write(k);
+                    writer.Write(bb);
+                   
+                }
+                Console.WriteLine("deadlock?");
 
-                    ClientResult = true;
-                }
-                else if (converted == "notfound")
-                {
-                    ClientResult = false;
-                }
-                break;
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Not connected to any server!" + e.StackTrace);
+            }
+
         }
+        private void Songs_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            //MessageBox.Show("asdasf");
+            selectedsong = record[Songs.SelectedIndex];
+
+            if (!selectedsong.Contains("This is a Remote Song"))
+            {
+               // MessageBox.Show(selectedsong);
+                for (int i = 0; i < playlist.Songs.Count; i++)
+                {
+
+                    if (playlist.Songs[i].Title == selectedsong)
+                    {
+                        
+                        player.PlaySong(i);
+                        this.btnPlay.Visibility = Visibility.Collapsed;
+
+                        this.btnPause.Visibility = Visibility.Visible;
+                    }
+
+
+                }
+
+            }
+            if (!selectedsong.Contains("."))
+            {
+                selectedsong += ".mp3";
+                // MessageBox.Show(selectedsong);
+            }
+
+            if (selectedsong.Contains("This is a Remote Song")) {
+                MessageBox.Show("aaaaaaa");
+                string filename = box.Text;
+                //Thread downloadt = new Thread(()=>downloadP2P(filename));
+                //downloadt.Start();
+                downloadP2P(box.Text);
+                MessageBox.Show("bbbbbbb");
+                
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
