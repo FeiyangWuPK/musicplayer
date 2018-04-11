@@ -35,7 +35,7 @@ namespace JustAnotherMusicPlayer
         }
         bool ClientResult;
         public IPAddress localAddr;
-        public TcpClient tcpclnt = new TcpClient();
+        public  TcpClient tcpclnt = new TcpClient();
         public MusicPlayer player = new MusicPlayer();
         Playlist playlist = new Playlist();
         private DispatcherTimer timer = new DispatcherTimer();
@@ -461,9 +461,10 @@ namespace JustAnotherMusicPlayer
                 // Set the TcpListener on port 13000.
                 Int32 port = portnum;
                 IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-
-                // TcpListener server = new TcpListener(port);
-                server = new TcpListener(localAddr, port);
+                while (true)
+                {
+                    // TcpListener server = new TcpListener(port);
+                    server = new TcpListener(localAddr, port);
 
                 // Start listening for client requests.
                 server.Start();
@@ -485,9 +486,8 @@ namespace JustAnotherMusicPlayer
 
                 // Get a stream object for reading and writing
                 NetworkStream stream = client.GetStream();
-                //bool exist = false;
-                while (true)
-                {
+                
+                
                     int i = 0;
 
                     while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
@@ -539,11 +539,15 @@ namespace JustAnotherMusicPlayer
                             
                             
                             data = "songs/Demons.mp3";
-                            MessageBox.Show(data);
+                            //MessageBox.Show(data);
                             
                             byte[] file = FileToByteArray(data);
-                            MessageBox.Show(file.Length.ToString());
+                            //MessageBox.Show(file.Length.ToString());
                             stream.Write(file, 0, file.Length);
+                            //stream.Write(file, 0, 0);
+                            stream.Close();
+                            client.Close();
+                            break;
                         }
 
                     }
@@ -654,25 +658,26 @@ namespace JustAnotherMusicPlayer
         {
             try
             {
-                
-
                 //get connection stream
                 Stream stm = tcpclnt.GetStream();
                 ASCIIEncoding asen = new ASCIIEncoding();
-                byte[] ba = asen.GetBytes("download" + name);
+                byte[] ba = asen.GetBytes("downloadDemons");
                 stm.Write(ba, 0, ba.Length);
                 byte[] bb = new byte[512]; //read 512 bytes of data at a time
-                int k;
+                int k=0;
                 //create a file to write to
+                
                 name = "songs/downloadtest.mp3";
-                BinaryWriter writer = new BinaryWriter(File.Open(name, FileMode.Append));
+                BinaryWriter writer = new BinaryWriter(File.Open(name, FileMode.Create));
+                //stm.Read(bb, 0, bb.Length);
+                //writer.Write(bb);
                 while ((k = stm.Read(bb, 0, 512)) != 0)
                 {
                     Console.Write(k);
                     writer.Write(bb);
                    
                 }
-                Console.WriteLine("deadlock?");
+                //Console.WriteLine("deadlock?");
 
             }
             catch (Exception e)
@@ -712,12 +717,12 @@ namespace JustAnotherMusicPlayer
             }
 
             if (selectedsong.Contains("This is a Remote Song")) {
-                MessageBox.Show("aaaaaaa");
+                MessageBox.Show("start downloading song... ");
                 string filename = box.Text;
-                //Thread downloadt = new Thread(()=>downloadP2P(filename));
-                //downloadt.Start();
-                downloadP2P(box.Text);
-                MessageBox.Show("bbbbbbb");
+                Thread downloadt = new Thread(()=>downloadP2P(filename));
+                downloadt.Start();
+                //downloadP2P(box.Text);
+                //MessageBox.Show("bbbbbbb");
                 
             }
 
