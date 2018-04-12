@@ -10,7 +10,7 @@ using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
-
+using System.Runtime.InteropServices;
 using System.Windows.Input;
 using System.Windows.Media;
 
@@ -32,6 +32,11 @@ namespace JustAnotherMusicPlayer
             public string Artist { get; set; }
             public string Album { get; set; }
             public string Length { get; set; }
+        }
+        public class songs
+        {
+            [DllImport(@"C:\Documents\GitHub\musicplayer\finalversion\april 9\csci3280\3280\bin\Debug\decoder.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.Cdecl)]
+            public static extern void Songs();
         }
         int count = 0;
         bool ClientResult;
@@ -327,7 +332,7 @@ namespace JustAnotherMusicPlayer
             Musicbar.Visibility = Visibility.Visible;
             Songs.Visibility = Visibility.Visible;
             int index = 0;
-
+            bool indicate=true;
             for (int i = 0; i < processes.Count; i++)
             {
                 if (processes[i].Title == box.Text || processes[i].Artist == box.Text || processes[i].Album == box.Text)
@@ -338,12 +343,14 @@ namespace JustAnotherMusicPlayer
                     itm.Content = processes[i].Title.PadRight(23) + processes[i].Artist.PadRight(25) + processes[i].Album.PadRight(25) + processes[i].Length.PadRight(23);
                     Songs.Items.Insert(index, itm);
                     index++;
+                    indicate = false;
                 }
+                
 
 
 
             }
-            if (ClientResult)
+            if (ClientResult&&indicate)
             {
                 // MessageBox.Show("aaaaaaaaaa");
                 ListBoxItem itm = new ListBoxItem();
@@ -351,7 +358,9 @@ namespace JustAnotherMusicPlayer
                 record.Add(box.Text + " This is a Remote Song");
                 Songs.Items.Insert(index, itm);
                 index++;
+                ClientResult = false;
             }
+
 
 
             //MessageBox.Show(processes[1].Title);
@@ -969,11 +978,14 @@ namespace JustAnotherMusicPlayer
                 {
                     interleave();
                 }
-                if (!filename.Contains(".avi") && count==1)
+                if (!filename.Contains(".avi") && count == 1)
                 {
-                    Song rsong = new Song("songs/"+filename);
+                    string a = "songs/" + filename;
+                    Song rsong = new Song(a);
+
                     this.playlist.AddSong(rsong);
                     lstSongs.Items.Refresh();
+                    MessageBox.Show(a);
                     player.PlaySong(playlist.Songs.Count - 1);
                     this.btnPlay.Visibility = Visibility.Collapsed;
                     this.btnPause.Visibility = Visibility.Visible;
