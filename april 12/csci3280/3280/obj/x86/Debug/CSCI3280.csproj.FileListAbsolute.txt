@@ -1,0 +1,288 @@
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\App.baml
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\MainWindow.g.cs
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\App.g.cs
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\MainWindow.baml
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\wh116\Downloads\JustAnotherMusicPlayer-master\JustAnotherMusicPlayer\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\wh116\Downloads\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\wh116\Downloads\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Downloads\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Downloads\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Downloads\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\search.g.cs
+C:\Users\Administrator\Downloads\csci3280\3280\obj\x86\Debug\search.baml
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\wh116\Downloads\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Administrator\Desktop\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\wh116\Downloads\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Downloads\phase 1\phase 1\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Downloads\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\GitHub\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\musicplayer\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\wh116\Downloads\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Documents\musicplayer-match4\musicplayer-match4\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\musicplayer-master\finalversion\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Administrator\Desktop\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\bin\Debug\JustAnotherMusicPlayer.pdb
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csprojResolveAssemblyReference.cache
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.baml
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.baml
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\Search.g.cs
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\App.g.cs
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.cache
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer_MarkupCompile.lref
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.g.resources
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.Properties.Resources.resources
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.GenerateResource.cache
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CoreCompileInputs.cache
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\CSCI3280.csproj.CopyComplete
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.exe
+C:\Users\Patrick WU\Desktop\music\musicplayer-master\musicplayer-master\april 9\csci3280\3280\obj\x86\Debug\JustAnotherMusicPlayer.pdb
