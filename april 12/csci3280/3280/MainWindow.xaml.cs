@@ -576,7 +576,7 @@ namespace JustAnotherMusicPlayer
 
 
                             data = "serversongs/" + data;
-                            MessageBox.Show(data);
+                            //MessageBox.Show(data);
 
                             byte[] file = FileToByteArray(data);
                             //MessageBox.Show(file.Length.ToString());
@@ -966,14 +966,14 @@ namespace JustAnotherMusicPlayer
                 {
                     interleave();
                 }
-                if (!filename.Contains(".avi") && count==1)
+                if (!filename.Contains(".mp4") && count==1)
                 {
                     string a = "songs/" + filename;
                     Song rsong = new Song(a);
                    
                     this.playlist.AddSong(rsong);
                     lstSongs.Items.Refresh();
-                    MessageBox.Show(a);
+                    //MessageBox.Show(a);
                     player.PlaySong(playlist.Songs.Count-1);
                     this.btnPlay.Visibility = Visibility.Collapsed;
                     this.btnPause.Visibility = Visibility.Visible;
